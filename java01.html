@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        //변수를 선언한다
+        // var stringVar="string";
+        // var numberVar=220;
+        // var boolVar=true;
+        // var functionVar=function(){};
+        // var objectVar={}
+
+
+        // += -= *= /= %=
+
+        var value=10;
+
+        value+=10;
+        // value=value+10;
+
+        alert(value)
+
+        window.onload=function(){
+            var list="";
+            list+="<ul>";
+            list+="<li> hello! </li>";
+            list+="<li> script </li>";
+            list+="</ul>";
+
+            // document.write(list)
+            // document.body.innerHTML=list
+
+            var box=document.querySelector(".box");
+            document.body.innerHTML=list
+        }
+    </script>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
